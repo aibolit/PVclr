@@ -25,6 +25,7 @@ namespace PVclr {
 
             new Thread(new ThreadStart(socketConnections)).Start();
 
+            Console.WriteLine("HI!!!!");
 
             KinectSensor[] kinects = KinectSensor.KinectSensors.ToArray();
             for (int i = 0; i < kinects.Length; i++) {
